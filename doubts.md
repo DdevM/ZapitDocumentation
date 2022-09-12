@@ -2,6 +2,8 @@
 
 * Get Clarification on all the functions of the mergeUtxos.dart
 
+* sweepfunds.dart
+
 * In walletinfo.dart
 ```
  var rootSeed = bitbox.Mnemonic.toSeed(seed);
