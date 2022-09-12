@@ -45,3 +45,18 @@ Contains the core imports or exports
 
 #### Extension
 Extension classes developed on Strings in order to validate password, number and email.
+
+## Screens
+
+#### Assets
+Contains the code for the assets screen on the homeScreen
+It fetches the initial token data from the Hive DB and sets all the state properties accordingly per each token.
+It has a slptokencard function that returns the widget holding the token data
+
+#### Bch
+* It is holding the transaction screen the view add contact is the bottom sheet that appears on clicking on add new contact
+* Bch utils holds the explorers and links of various blockchain domaisn
+* Cash account holds the cash account page in which it fetches the data from HiveDB in order to check for existing address and stores the data in the state.
+  - Create new cash account takes in a username and creates the cash account.
+  - Contains functions like show success modals etc.
+* 
