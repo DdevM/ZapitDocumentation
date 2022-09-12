@@ -63,3 +63,10 @@ It has a slptokencard function that returns the widget holding the token data
   - At start it fetches the reciever and sender address along with BCH fees from bitbox and discounts from Hive DB
   - Doubt (wif)
   - Send Discounted transactions
+* Discount screen consists of the discounts page where it fetches the discount available in different tokens from the DB and then verifies the discounts and adds it up.
+* Edit Contact Screen takes in all the required parameters as arguments and allows editing option and pushes the contact back to DB
+* Enter amount is a textfield that takes the fiat currency input and then gets the corresponding BCH price and then checks for sufficient balance in sender's account and functions accordingly, to go to Navigation page / Show error
+* Recieve page is the page we see when we click on the username on the home page. The BCH address / Cash Account details of the user is fetched from the DB along with forming the QR accordingly if SLP or BCH.
+* Scan consists of the QR code controller, decoding the qr, and checking if the address belongs to an user, checking if the id has a cash account or is a SLP id and accordingly execute the function and send data.
+* Send consists of the send page along with the contact details. It fetches the user bch / SLP address and then it also checks and ahndles the transaction part. i.e. if the transaction is done by manually entering the address or if it is from a QR code and if it is from a QR code then decode the address to a valid BCH address and execute the transaction.
+* 
