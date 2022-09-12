@@ -10,3 +10,5 @@
     }
 ```
 in mergeutxos.dart
+
+* Get Clarification on all the functions of the mergeUtxos.dart
