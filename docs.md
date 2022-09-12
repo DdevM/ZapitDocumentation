@@ -59,4 +59,7 @@ It has a slptokencard function that returns the widget holding the token data
 * Cash account holds the cash account page in which it fetches the data from HiveDB in order to check for existing address and stores the data in the state.
   - Create new cash account takes in a username and creates the cash account.
   - Contains functions like show success modals etc.
-* 
+* Confirm Transaction is the page that is hown up before transaction is done
+  - At start it fetches the reciever and sender address along with BCH fees from bitbox and discounts from Hive DB
+  - Doubt (wif)
+  - Send Discounted transactions
