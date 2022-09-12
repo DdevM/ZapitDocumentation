@@ -1,3 +1,6 @@
+* `await HiveDB.getdata("wif")`
+
+
 ```
     for (var i = 0; i < slpTokens.length; i++) {
       num utxos = 0;
