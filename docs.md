@@ -69,4 +69,7 @@ It has a slptokencard function that returns the widget holding the token data
 * Recieve page is the page we see when we click on the username on the home page. The BCH address / Cash Account details of the user is fetched from the DB along with forming the QR accordingly if SLP or BCH.
 * Scan consists of the QR code controller, decoding the qr, and checking if the address belongs to an user, checking if the id has a cash account or is a SLP id and accordingly execute the function and send data.
 * Send consists of the send page along with the contact details. It fetches the user bch / SLP address and then it also checks and ahndles the transaction part. i.e. if the transaction is done by manually entering the address or if it is from a QR code and if it is from a QR code then decode the address to a valid BCH address and execute the transaction.
+* Sign and verify signature is basically adding a digital signautre and verifying a signature as well.
+* Transaction details contains the details of each transaction that is passed by arguments and also it chcks and verifies, if it is a UPI transactionand also allowing the function of requesting a refund and verifying the status of a transaction.
+* Transaction History page gets the data of both BCH as well as UPI transactions and renders them in Customised Widgets.
 * 
