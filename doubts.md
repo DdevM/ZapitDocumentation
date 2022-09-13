@@ -10,3 +10,15 @@
     var masterNode = bitbox.HDNode.fromSeed(rootSeed);
     accountNode = masterNode.derivePath("m/44'/245'/0'/0");
 ``` 
+
+* In bitcoincash.dart
+
+```
+root seed
+masterNode
+accountNode
+```
+
+mainserver
+
+decodesSlpOpReturn
