@@ -19,6 +19,6 @@ masterNode
 accountNode
 ```
 
-mainserver
+ - mainserver
 
-decodesSlpOpReturn
+ - decodesSlpOpReturn
